@@ -34,6 +34,11 @@ To run and modify this project, you'll need the following:
 
 1. Clone the repository to your local machine:
 
+```
+git clone https://github.com/KolwaBrad/photographer-portfolio-website.git
+```
+
+
 2. Open the project in your preferred text editor or IDE.
 
 3. Customize the HTML and CSS files to add your own content, images, and styles.
