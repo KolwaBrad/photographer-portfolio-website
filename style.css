@@ -220,3 +220,6 @@ body {
     border-radius: 25px;
     margin: 10px;
   }
+  .minnavbar ul a {
+  text-decoration: none;  
+  }
