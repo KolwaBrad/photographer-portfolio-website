@@ -10,10 +10,11 @@ body {
     font-family: "Outfit";
   }
 .container {
-    max-width: 800px;
+    width: 800px;
+    text-align: center;
     margin: 0 auto;
-    padding: 20px;
 }
+
 
 h1 {
     font-size: 36px;
@@ -21,8 +22,9 @@ h1 {
 
 .contact-links {
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .contact-item {
