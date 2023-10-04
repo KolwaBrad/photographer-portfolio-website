@@ -19,23 +19,34 @@ h1 {
 
 .contact-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 30px;
 }
 
 .contact-item {
-    margin: 0 20px;
+    flex: 1;
     text-align: center;
+}
+
+.contact-box {
+    width: 250px;
+    height: 250px;
+    background-color: #1A1C1D;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 107, 107, 0.5); /* Glow effect on hover */
 }
 
 .contact-item a {
     text-decoration: none;
     color: white;
-    transition: color 0.3s ease;
-}
-
-.contact-item a:hover {
-    color: #FF6B6B; /* Change color on hover (you can choose your own color) */
 }
 
 .contact-item img {
