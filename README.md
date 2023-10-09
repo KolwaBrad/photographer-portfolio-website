@@ -57,6 +57,6 @@ Contributions to this project are welcome! If you'd like to contribute or report
 
 2. Create a new branch for your feature or bug fix:
 
-3. Make your changes and commit them:
+3. Make your changes and commit them to git:
 
 
